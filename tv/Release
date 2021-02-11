@@ -1,0 +1,9 @@
+Origin: Litten's Wondercafé ☕️🌸
+Label: Litten's Wondercafé ☕️🌸
+Suite: stable
+Version: 1.0
+Codename: cydia-ios
+Architectures: appletvos-arm
+Components: main
+Description: where the love shows
+Icon: https://repo.litten.love/tv/CydiaIcon.png
