@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Kanji <tyler.clinton@icloud.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
 Filename: ./debs/com.kanji.snapbreak_1.7.1_iphoneos-arm.deb
-Size: 6283644
-MD5sum: e018be5f2173587191207fc8d4b50862
-SHA1: 938f552ab573c8c470e0e05a082cf22b0cc1696f
-SHA256: 41f4dd457a714ee782da9970727cc9abe7b0029b7d6194d6889c7285965d51dc
+Size: 6283770
+MD5sum: 6cc596cd1b5eb6dfe2d9c7b19d2a8731
+SHA1: 2f06c7f0f1bf90c2a9d4c88c2df754db61ab15e2
+SHA256: 8b4da616ef96d92a1ccd3396221757de6e6740c1d72283fe18f1649abe044cca
 Section: Tweaks
 Description: Save snaps, upload media, fake location, and so much more on Snapchat!
 Author: Kanji <tyler.clinton@icloud.com>
