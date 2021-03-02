@@ -9,7 +9,7 @@ MD5sum: 6cc596cd1b5eb6dfe2d9c7b19d2a8731
 SHA1: 2f06c7f0f1bf90c2a9d4c88c2df754db61ab15e2
 SHA256: 8b4da616ef96d92a1ccd3396221757de6e6740c1d72283fe18f1649abe044cca
 Section: Tweaks
-Description: Save snaps, upload media, fake location, and so much more on Snapchat!
+Description: Save snaps, upload media, and so much more with Snapbreak!
 Author: Kanji <tyler.clinton@icloud.com>
 Depiction: https://whoskanji.github.io/depictions/snapbreak/
 Name: Snapbreak
