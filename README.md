@@ -1,4 +1,6 @@
 # Just a repo where I mess around with code.
 
 # Notes
-  This repo only works on Zebra. I specifically made it for Zebra, so if you don't have it, well then you probably won't have luck adding it to your sources.
+  This repo works on most package managers, but Cydia continuously has an update loop. I am too lazy to fix the issue. So if you have Zebra, Sileo, or Installer. Just add my repo to those, or just install it on Cydia and just block the updates.
+
+
