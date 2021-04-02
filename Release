@@ -1,0 +1,8 @@
+Origin: Kanji // 漢字
+Label: Kanji // 漢字
+Suite: stable
+Version: 1.0
+Codename: cydia-ios
+Architectures: iphoneos-arm
+Components: main
+Description: I like to mess around with code.
