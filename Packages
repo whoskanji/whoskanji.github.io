@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Kanji <tyler.clinton@icloud.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
 Filename: ./debs/com.kanji.snapbreak_1.7.1_iphoneos-arm.deb
-Size: 6288680
-MD5sum: 2bd24495114d5d3c8234c0529ef86d5d
-SHA1: 91455698887ccd6ba9ab663c98a67159b0ac9838
-SHA256: 174f804a11e730924d2ad7753d80aa0906b668effc91f87be54c52b34938bb46
+Size: 6288614
+MD5sum: 4f6e82b3515d2c5f3d6f016fdfa87435
+SHA1: 2f1b7506d053b937d29b2daebb7738486d61086a
+SHA256: bffff1fb7dac0c2a88b8c0eb497fb75eb5aaede924b3645a98ad1cb3f189dd22
 Section: Tweaks
 Description: Save snaps, upload media, and so much more with Snapbreak!
 Author: Kanji <tyler.clinton@icloud.com>
