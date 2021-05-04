@@ -13,19 +13,3 @@ Description: Save snaps, upload media, and so much more with Snapbreak!
 Author: Kanji <tyler.clinton@icloud.com>
 Depiction: https://whoskanji.github.io/depictions/snapbreak/
 Name: Snapbreak
-
-Package: com.kanji.climaxx
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Kanji <tyler.clinton@icloud.com>
-Depends: firmware (>= 13.0)
-Filename: ./debs/com.kanji.climaxx_1.0_iphoneos-arm.deb
-Size: 17598120
-MD5sum: c7373fb6cdd4f62cbe5c75920c9fe4e1
-SHA1: d8e79294f01bf9d000786113c576732f401e3e8b
-SHA256: 15ad80e2a527c0ff9a047e52b1b4c2166741855bed8b8ee2a3e2d2815b1ec524
-Section: Apps
-Description: Adult website app.
-Author: Kanji <tyler.clinton@icloud.com>
-Depiction: https://whoskanji.github.io/depictions/climax/
-Name: Climax
