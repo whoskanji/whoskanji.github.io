@@ -2,12 +2,12 @@ Package: com.kanji.snapbreaknotd
 Version: 1.7.1
 Architecture: iphoneos-arm
 Maintainer: Kanji <tyler.clinton@icloud.com>
-Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ldid
+Depends: mobilesubstrate, preferenceloader, ldid
 Filename: ./debs/com.kanji.snapbreaknotd_1.7.1_iphoneos-arm.deb
-Size: 6301898
-MD5sum: d04dbff31118836ee6fa6949fd356fc4
-SHA1: 9df88be5c71c3baabf9a79cf0f600b35556b78d8
-SHA256: 77d75ea0bf4e225d312198a20c4e35f7722fa246790e277f7e550eb359639bc9
+Size: 5103644
+MD5sum: eb560331c15930735fc811ab87f77d10
+SHA1: 0af09d1a3e94155478bfef97b0ab1f1c9593bace
+SHA256: 6c8dfa816a8a1aa94925a33ede6a5fbd793c3e139b68f6e503f779a47e87af3d
 Section: Tweaks
 Description: Save snaps, upload media, and so much more with Snapbreak!
 Author: Kanji <tyler.clinton@icloud.com>
