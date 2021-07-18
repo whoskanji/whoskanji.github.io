@@ -14,18 +14,3 @@ Author: Kanji <tyler.clinton@icloud.com>
 Depiction: https://whoskanji.github.io/depictions/snapbreak/
 Name: Snapbreak
 
-Package: com.kanji.cl1m4x
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Kanji <tyler.clinton@icloud.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.kanji.cl1m4x_1.1_iphoneos-arm.deb
-Size: 17344910
-MD5sum: bdcb84ef3883c42f3f585a99fa17232a
-SHA1: a50e3c49321efc091f7460cb4d6ec1a6f67a5f4a
-SHA256: 0986e21fc88eb519578ae37708887f4491f9e00b85a270aa38c39bbb611eefe3
-Section: Apps
-Description: Adult app. Just because.
-Author: Kanji <tyler.clinton@icloud.com>
-Depiction: https://whoskanji.github.io/depictions/climax/
-Name: Climax
