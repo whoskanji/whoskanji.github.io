@@ -15,15 +15,15 @@ Depiction: https://whoskanji.github.io/depictions/snapbreak/
 Name: Snapbreak
 
 Package: com.kanji.cl1m4x
-Version: 1.2.2-1
+Version: 1.2.2-2
 Architecture: iphoneos-arm
 Maintainer: Kanji <tyler.clinton@icloud.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.kanji.cl1m4x_1.2.2-1_iphoneos-arm.deb
-Size: 2826764
-MD5sum: 558c19a26144e3e769035f90376d1213
-SHA1: 90a15b792d09e9e1bc2cbbe740bfa0e4dd0011e6
-SHA256: eef8e9070de852d5f3172846e4a8c4bf3e7a4430cd1f16903a10c0e2c25eada8
+Filename: ./debs/com.kanji.cl1m4x_1.2.2-2_iphoneos-arm.deb
+Size: 17227620
+MD5sum: 3deb278d7b8caa159b7cfdc571ee0580
+SHA1: 931c68bd955001e0df94205a6a67b153a8f07270
+SHA256: 91b73474495c6ae0bd465f7db801e897d3137497e38fce63b57b920962523efd
 Section: Apps
 Description: An adult app. Just because.
 Author: Kanji <tyler.clinton@icloud.com>
