@@ -20,10 +20,10 @@ Architecture: iphoneos-arm
 Maintainer: Kanji <tyler.clinton@icloud.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.kanji.cl1m4x_1.3_iphoneos-arm.deb
-Size: 17227708
-MD5sum: 5728afa5599dae4d0716d5628929d322
-SHA1: 63ea775247bb10dcae3f704e83d0ae2c760a7cbe
-SHA256: 1db46e728a3e6b5d3b8129d97c7c8f48e1b98c2b65e853439eb4ed6058f13360
+Size: 17227872
+MD5sum: cd496b443666316e26d5beadc2076a56
+SHA1: 1c76306dfce5a0f016f894d047ab3c9d15e5460f
+SHA256: 44c693d22a40262fc54e61eba9383635c1a2efdd9b02b5dcb9a4e0bd55ee133b
 Section: Apps
 Description: An adult app. Just because.
 Author: Kanji <tyler.clinton@icloud.com>
