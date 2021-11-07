@@ -27,7 +27,8 @@ MD5sum: 44da931b9cbe5831b4ae967e0c3ac624
 SHA1: d06526af335fef2cb3f32df578d10e15f0b65226
 SHA256: 22287404f3540d375e083538c0ff4e4d80007917a1aed2d8196fd72eab2271e8
 Section: Tweaks
-Description: The tweak snapchat needs... (tap "shadow" to open the menu)
+Description: The new SnapBreak. With Shadow, you can upload media, save media, RGB header, and more!
+Depiction: https://whoskanji.github.io/depictions/shadow/
 Author: Wyatt + Kanji
 Name: Shadow
 
