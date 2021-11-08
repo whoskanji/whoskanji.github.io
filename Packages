@@ -15,6 +15,23 @@ Author: Kanji <tyler.clinton@icloud.com>
 Dev: Kanji
 Name: Climax
 
+Package: com.kanji.snapbreaknotd
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: Kanji
+Depends: mobilesubstrate, sed, ldid
+Conflicts: com.cokepokes.snapdecent, com.cokepokes.libphantom, com.cokepokes.spectre, tv.othman.scothman, tv.othman.scothman.ios11, com.s0me1ne.betaatweakdisabler, fr.s0me1ne.betasnapbreak, com.s0me1ne.atweakdisabler, fr.s0me1ne.snapbreak
+Filename: ./debs/com.kanji.snapbreaknotd_1.7.1_iphoneos-arm.deb
+Size: 6302002
+MD5sum: ba8a2ab29263350400079d3597786c77
+SHA1: 99bb1c8051800e70e45a3cf89b42f857ae1c9f8a
+SHA256: 9d479dc251673ddf377f52d705022de59533df158dd96ef51ca1b9f46a89ea39
+Section: Tweaks
+Description: Snapbreak is a Snapchat tweak that allow you to save/upload medias, disable screeshots and many more features!
+Author: Kanji
+Depiction: https://whoskanji.github.io/depictions/snapbreak
+Name: Snapbreak (READ DESCRIPTION)
+
 Package: com.wyattgahm.shadow
 Version: 11.39.0-51+debug
 Architecture: iphoneos-arm
@@ -27,8 +44,7 @@ MD5sum: 44da931b9cbe5831b4ae967e0c3ac624
 SHA1: d06526af335fef2cb3f32df578d10e15f0b65226
 SHA256: 22287404f3540d375e083538c0ff4e4d80007917a1aed2d8196fd72eab2271e8
 Section: Tweaks
-Description: The new SnapBreak. With Shadow, you can upload media, save media, RGB header, and more!
-Depiction: https://whoskanji.github.io/depictions/shadow/
+Description: The tweak snapchat needs... (tap "shadow" to open the menu)
 Author: Wyatt + Kanji
 Name: Shadow
 
