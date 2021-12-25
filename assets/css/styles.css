@@ -184,7 +184,6 @@ header {
 
 .add-btns{
 	margin: 0 auto;
-	color: #f713ff;
 }
 
 .btn-tweak:hover {
@@ -257,6 +256,7 @@ header {
 
 .download {
 	padding: 10px;
+	color: #f713ff;
 }
 
 @keyframes hero-gradient {
