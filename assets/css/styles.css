@@ -185,6 +185,7 @@ header {
 .add-btns{
 	margin: 0 auto;
 	background-color: #f713ff;
+	color: #f713ff;
 }
 
 .btn-tweak:hover {
