@@ -1,0 +1,4 @@
+- name: Shadow
+  description: Shadow is a new Snapchat tweak that is aimed to replace Snapbreak.
+  bundleid: com.kanji.shadow
+  icon: default
