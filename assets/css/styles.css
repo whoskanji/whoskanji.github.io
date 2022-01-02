@@ -1,0 +1,340 @@
+
+
+body {
+	color: #ddd;
+	 background-color: #111;
+	margin-top: 4rem;
+	font-size: 90%;
+}
+
+.icon {
+	display: inline-block;
+	position: relative;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	vertical-align: text-top;
+}
+
+.icon.icon-spaced {
+	margin-right: 0.25em;
+}
+
+.navbar-brand h2 {
+	margin-bottom: 0;
+	opacity: 0;
+	transition: opacity 500ms ease-out;
+}
+
+.page-scrolled .navbar-brand h2 {
+	opacity: 1;
+}
+
+header {
+	text-align: center;
+	margin: 3rem 0;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* padding:30px */
+}
+
+.section.feature {
+	text-align: right;
+	/* padding:50px 30px */
+}
+
+.relative{
+	position: relative!important;
+}
+
+.brand-logo img{
+	width:100%;
+
+}
+.brand-logo{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	margin-top:300px;
+}
+
+.promo-row-alt {
+	text-align: left;
+	/* padding:50px 30px */
+}
+
+.promo-row {
+	margin: 20px 0px;
+}
+
+.promo-title {
+	margin-bottom: 10px;
+}
+
+.promo-icon .icon {
+	margin: 15px;
+	width: 60px;
+	height: 60px;
+}
+
+.home .section.feature.alt {
+	text-align: left;
+	background: #fafafa;
+}
+
+.home .section.feature.alt > div {
+	flex-direction: row-reverse;
+}
+
+#video-background{ 
+
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+	height: 130%;
+	object-fit: cover; /*Important*/
+	z-index: -1;
+	overflow: hidden;
+  }
+
+#video-background-alt{ 
+	position: absolute;
+	height: auto;
+	width: auto;
+	min-height: 100%;
+	min-width: 100%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	z-index: -1000;
+  }
+
+.hero-jumbo {
+
+	color: white;
+
+	margin-bottom: 2rem;
+
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+.hero-text {
+	text-align: center;
+	font-size: 100px;
+	margin-top: 15px;
+	z-index: 1;
+}
+
+.hero-text a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero-subtext {
+	color: ghostwhite;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.navbar {
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(25, 25, 25, 0.7);
+}
+
+.btn-tweak {
+	margin-left: 30px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding: 20px 20px;
+	line-height: 1em;
+	width: 45%;
+	height: 150px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+	
+	float: left;
+	border-radius: 20px;
+	font-weight: 600;
+	background-color: #202020;
+	border-color: #fafafa;
+	color: #fafafa;
+
+}
+
+.tweak-text {
+	margin-left: 20px;
+	float: left;
+	text-align: left;
+}
+
+.add-btns{
+	margin: 0 auto;
+}
+
+.btn-tweak:hover {
+	background-color: #303030;
+	border-color: #fafafa;
+	color: #ffffff;
+}
+
+.btn-tweak:active {
+	background-color: #404040;
+}
+
+.btn-cydia,
+.btn-navbar {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding: 10px 20px;
+	max-height: 40px;
+	line-height: 1em;
+	border-radius: 8px;
+	font-weight: 600;
+}
+
+.btn-cydia .icon {
+	margin-right: 0.2em;
+}
+
+.credits-item {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.credits-item img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
+
+.media-body {
+	padding-left: 1em;
+}
+
+.apps {
+	margin-top: 20px;
+}
+
+.apps a {
+	display: block;
+}
+
+.apps .lead {
+	text-decoration: none;
+}
+
+.app-image {
+	width: 120px;
+	height: 120px;
+	border-radius: 20%;
+	margin-bottom: 10px;
+}
+
+.apps .lead {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.thank-you {
+	margin-top: 0.5rem;
+}
+
+.download {
+	padding: 10px;
+	color: #f713ff;
+}
+
+@keyframes hero-gradient {
+	0% {
+		background-position: 0% 51%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 51%;
+	}
+}
+
+@media (max-width: 350px) {
+
+	.navbar-brand {
+		margin:0 auto;
+	}
+
+	.btn-navbar {
+		margin-top: 5px;
+	}
+
+}
+
+@media (max-width: 1000px) {
+
+	.btn-tweak {
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.btn-cydia {
+		width: 80%;
+	}
+
+	.btn-navbar {
+		width: 100%;
+	}
+
+	.btn-tweak {
+		height: fit-content;
+	}
+}
+
+@media (min-width: 768px) {
+	/* lg */
+	body {
+		font-size: 100%;
+	}
+
+	.navbar .container-fluid {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+  
+	.promo-rows {
+		padding: 0 50px;
+	}
+
+	.promo-icon .icon {
+		margin: 20px;
+		width: 100px;
+		height: 100px;
+	}
+
+	.credits-item img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.app-image {
+		width: 200px;
+		height: 200px;
+	}
+}

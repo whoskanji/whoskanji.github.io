@@ -1,138 +1,134 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanji | Repository</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Kanji | Repository">
-    <meta property="og:description" content="Kanji's fuck shit stuff.">
-    <meta property="og:url" content="https://whoskanji.github.io">
+---
+layout: site
+---
 
-    <style>
+<!-- Project Showcase -->
+<hr />
 
-        html, body {
 
-            margin: 0;
-            padding: 0;
-            user-select: none;
-            -webkit-user-select: none;
-            cursor: default;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            -webkit-font-smoothing: antialiased;
-            background-color: #ffffff;
+<section>
+	<div class="container text-center my-5">
+		<h2>Latest Tweaks</h2>
+	</div>
+	
+		<div class="section">
+			<div class="container">
+				<div>
+				{% for person in site.data.tweaks %}
+					<a href="https://whoskanji.github.io/depictions/{{ person.bundleid }}">
+						<div class="btn btn-tweak mb-1">
+							<div>
+								<img style="max-height: 80px; border-radius: 20%;" src="/assets/images/{{ person.icon }}.png"></img>
+							</div>
+							<div class="tweak-text w-100">	
+								<h5 style="font-weight: bold;">{{ person.name }}</h5>
+								<h5>{{ person.description}}</h5>
+							</div>
+						</div>
+					</a>
+				{% endfor %}
+				</div>
+			</div>
+		</div>
+			<article class="col-md-8">
+				{{ latest_post.content }}
+				
+				{% for file in latest_post.files %}
+				<a
+					href="{{ file.url }}"
+					class="btn btn-primary btn-cydia mb-1"
+				>
+					<svg class="icon icon-download" viewBox="0 0 100 100">
+						<path
+							d="m40.7285 80.63867c21.8262 0 39.8926-18.06637 39.8926-39.89257 0-21.7773-18.1152-39.8926-39.9414-39.8926s-39.84376 18.1153-39.84376 39.8926c0 21.8262 18.06636 39.89257 39.89256 39.89257zm0-18.26167c-1.2207 0-2.1973-.4395-3.2715-1.5137l-13.5254-13.7695c-.7324-.7813-1.0742-1.6114-1.0742-2.7344 0-2.1485 1.5625-3.7598 3.711-3.7598 1.123 0 2.1484.4883 2.7832 1.1719l4.1504 4.4433 3.5644 4.5899-.3906-9.1309v-18.5058c0-2.295 1.709-3.9063 4.0527-3.9063 2.2949 0 4.0527 1.6113 4.0527 3.9063v18.5058l-.4394 9.1309 3.6133-4.6387 4.1504-4.3945c.6836-.6836 1.6601-1.1719 2.7832-1.1719 2.1484 0 3.7597 1.6113 3.7597 3.7598 0 1.123-.4394 1.9531-1.123 2.7344l-13.5254 13.7695c-.9766 1.0254-2.002 1.5137-3.2715 1.5137z"
+						/>
+					</svg>
+					{{ file.name | escape }}
+				</a>
+				{% endfor %}
+			</article>
+		</div>
+	</div>
+</section>
 
-        }
+<section id="cydia">
+	<div class="container text-center my-5">
+		<h2>Add to Package Manager</h2>
+	</div>
+		<div class="section">
+			<div class="container text-center">
+				<div class="row">
+					<article class="add-btns">
+						<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://whoskanji.github.io/" class="btn btn-primary btn-cydia mb-1">
+							<svg class="icon icon-download" viewBox="0 0 100 100">
+								<path d="M51.2285,101.2344 C78.9141,101.2344 101.766,78.38281 101.766,50.7461 C101.766,23.1094 78.8652,0.2578 51.1797,0.2578 C23.543,0.2578 0.74023,23.1094 0.74023,50.7461 C0.74023,78.38281 23.5918,101.2344 51.2285,101.2344 Z M51.1309,73.5 C48.1523,73.5 46.3457,71.3516 46.3457,68.2754 L46.3457,55.5801 L32.8691,55.5801 C29.8418,55.5801 27.5957,53.7734 27.5957,50.8438 C27.5957,47.8164 29.7441,45.9609 32.8691,45.9609 L46.3457,45.9609 L46.3457,32.5332 C46.3457,29.457 48.1523,27.3086 51.1309,27.3086 C54.1094,27.3086 56.0137,29.3594 56.0137,32.5332 L56.0137,45.9609 L69.5391,45.9609 C72.6641,45.9609 74.7637,47.8164 74.7637,50.8438 C74.7637,53.7734 72.6152,55.5801 69.5391,55.5801 L56.0137,55.5801 L56.0137,68.2754 C56.0137,71.4492 54.1094,73.5 51.1309,73.5 Z" id="Shape"></path>
+							</svg>
+							Add to Cydia
+						</a>
+						<a href="sileo://source/https://whoskanji.github.io/" class="btn btn-primary btn-cydia mb-1">
+							<svg class="icon icon-download" viewBox="0 0 100 100">
+								<path d="M51.2285,101.2344 C78.9141,101.2344 101.766,78.38281 101.766,50.7461 C101.766,23.1094 78.8652,0.2578 51.1797,0.2578 C23.543,0.2578 0.74023,23.1094 0.74023,50.7461 C0.74023,78.38281 23.5918,101.2344 51.2285,101.2344 Z M51.1309,73.5 C48.1523,73.5 46.3457,71.3516 46.3457,68.2754 L46.3457,55.5801 L32.8691,55.5801 C29.8418,55.5801 27.5957,53.7734 27.5957,50.8438 C27.5957,47.8164 29.7441,45.9609 32.8691,45.9609 L46.3457,45.9609 L46.3457,32.5332 C46.3457,29.457 48.1523,27.3086 51.1309,27.3086 C54.1094,27.3086 56.0137,29.3594 56.0137,32.5332 L56.0137,45.9609 L69.5391,45.9609 C72.6641,45.9609 74.7637,47.8164 74.7637,50.8438 C74.7637,53.7734 72.6152,55.5801 69.5391,55.5801 L56.0137,55.5801 L56.0137,68.2754 C56.0137,71.4492 54.1094,73.5 51.1309,73.5 Z" id="Shape"></path>
+							</svg>
+							Add to Sileo
+						</a>
+						<a href="zbra://sources/add/https://whoskanji.github.io/" class="btn btn-primary btn-cydia mb-1">
+							<svg class="icon icon-download" viewBox="0 0 100 100">
+								<path d="M51.2285,101.2344 C78.9141,101.2344 101.766,78.38281 101.766,50.7461 C101.766,23.1094 78.8652,0.2578 51.1797,0.2578 C23.543,0.2578 0.74023,23.1094 0.74023,50.7461 C0.74023,78.38281 23.5918,101.2344 51.2285,101.2344 Z M51.1309,73.5 C48.1523,73.5 46.3457,71.3516 46.3457,68.2754 L46.3457,55.5801 L32.8691,55.5801 C29.8418,55.5801 27.5957,53.7734 27.5957,50.8438 C27.5957,47.8164 29.7441,45.9609 32.8691,45.9609 L46.3457,45.9609 L46.3457,32.5332 C46.3457,29.457 48.1523,27.3086 51.1309,27.3086 C54.1094,27.3086 56.0137,29.3594 56.0137,32.5332 L56.0137,45.9609 L69.5391,45.9609 C72.6641,45.9609 74.7637,47.8164 74.7637,50.8438 C74.7637,53.7734 72.6152,55.5801 69.5391,55.5801 L56.0137,55.5801 L56.0137,68.2754 C56.0137,71.4492 54.1094,73.5 51.1309,73.5 Z" id="Shape"></path>
+							</svg>
+							Add to Zebra
+						</a>
+						<a href="installer://add/https://whoskanji.github.io/" class="btn btn-primary btn-cydia mb-1">
+							<svg class="icon icon-download" viewBox="0 0 100 100">
+								<path d="M51.2285,101.2344 C78.9141,101.2344 101.766,78.38281 101.766,50.7461 C101.766,23.1094 78.8652,0.2578 51.1797,0.2578 C23.543,0.2578 0.74023,23.1094 0.74023,50.7461 C0.74023,78.38281 23.5918,101.2344 51.2285,101.2344 Z M51.1309,73.5 C48.1523,73.5 46.3457,71.3516 46.3457,68.2754 L46.3457,55.5801 L32.8691,55.5801 C29.8418,55.5801 27.5957,53.7734 27.5957,50.8438 C27.5957,47.8164 29.7441,45.9609 32.8691,45.9609 L46.3457,45.9609 L46.3457,32.5332 C46.3457,29.457 48.1523,27.3086 51.1309,27.3086 C54.1094,27.3086 56.0137,29.3594 56.0137,32.5332 L56.0137,45.9609 L69.5391,45.9609 C72.6641,45.9609 74.7637,47.8164 74.7637,50.8438 C74.7637,53.7734 72.6152,55.5801 69.5391,55.5801 L56.0137,55.5801 L56.0137,68.2754 C56.0137,71.4492 54.1094,73.5 51.1309,73.5 Z" id="Shape"></path>
+							</svg>
+							Add to Installer
+						</a>
+					</article>
+				</div>
+			</div>
+		</div>
+</section>
 
-        .backgroundVideo .container {
+<hr />
+<!-- Socials -->
+<div class="container text-center my-5">
+	<h2>Support</h2>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-4 col-12 credits-item d-flex align-items-center">
+			<a
+				href="https://twitter.com/kanjishere"
+			>
+				<img src="/assets/images/twitter.jpg" alt="" />
+			</a>
+			<div class="media-body w-100">
+				<h4 class="mb-1">
+					<a
+						href="https://twitter.com/kanjishere"
+						>Twitter</a
+					>
+				</h4>
+				<p class="h5">@kanjishere</p>
+			</div>
+		</div>
+		<div class="col-md-4 col-12 credits-item d-flex align-items-center">
+			<a
+				href="https://discord.gg/kanji"
+			>
+				<img src="/assets/images/discord.jpg" alt="" />
+			</a>
+			<div class="media-body w-100">
+				<h4 class="mb-1">
+					<a
+						href="https://discord.gg/kanji"
+						>Discord</a
+					>
+				</h4>
+				<p class="h5">Join My Discord!</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-            height: 100%;
-            width: 100%;
-            position: fixed;
-            top: 0px;
-            left: 0;
-            opacity: 0.9;
-
-        }
-
-        .backgroundVideo .container video {
-
-            position: absolute;
-            top: -75px;
-
-        }
-
-        .home .container .title {
-
-            text-transform: uppercase;
-            color: #ffffff;
-            background: #000000;
-            width: 100%;
-            height: 100%;
-            mix-blend-mode: multiply;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        .home .container .title ul {
-
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            transform: translateY(-15px);
-
-        }
-
-        .home .container .title ul li {
-
-            list-style: none;
-            display: inline;
-            padding: 30px;
-
-        }
-
-        .home .container .title ul li a {
-
-            font-size: 10vw;
-            font-weight: 900;
-            color: #ffffff;
-            background: #000000;
-            text-decoration: none;
-
-        }
-
-        @media only screen and (max-width: 414px) {
-
-            .home .container .title ul li {
-
-                padding: 10px;
-
-            }
-
-        }
-
-    </style>
-
-</head>
-<body onclick="addRepo()">
-
-    <div class="backgroundVideo" id="backgroundVideo">
-        <div class="container">
-
-            <video id="wallpaper" src="assets/rainbow.mp4" muted autoplay playsinline loop></video>
-
-        </div>
-    </div>
-    
-    <div class="home">
-        <div class="container">
-
-            <div class="title">
-                
-                <ul>
-                    <li><a href="zbra://sources/add/https://whoskanji.github.io/">Kanji // 漢字</a></li><br>
-                    <li><a href="https://twitter.com/intent/follow?screen_name=kanjishere" style="font-size: 3vw;">Twitter</a></li>
-                    <li><a href="https://www.reddit.com/user/MrGhettoV2" style="font-size: 3vw;">Reddit</a></li>
-                    <li><a href="https://github.com/whoskanji" style="font-size: 3vw;">GitHub</a></li>
-                </ul>
-
-            </div>
-            
-        </div>
-    </div>
-
-    <script>
-
-        function addRepo() {
-
-            window.location.href = "cydia://url/https://cydia.saurik.com/api/share#?source=https://whoskanji.github.io/";
-
-        }
-
-    </script>
-    
-</body>
-</html>
