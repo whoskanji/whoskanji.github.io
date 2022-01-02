@@ -48,3 +48,18 @@ Description: The tweak snapchat needs... (tap "shadow" to open the menu)
 Author: Wyatt + Kanji
 Name: Shadow
 
+Package: com.wyattgahm+kanji.test
+Version: 11.39.0-27+debug
+Architecture: iphoneos-arm
+Maintainer: Kanji + Wyatt
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wyatt+kanji.shadow_11.39.0-27+debug_iphoneos-arm.deb
+Size: 65324
+MD5sum: d37bbf35f4eac43e5aeafd81e55ba02c
+SHA1: 7dfbdee6445f89d2528b30c7db974eb35321dc98
+SHA256: 2f0ed4ca1716c48fa2ca047f68cf17cd301944596403d8bc11c4c366300177ec
+Section: Tweaks
+Description: The tweak snapchat needs... (tap "shadow" to open the menu)
+Author: Wyatt + Kanji
+Name: [TEST] Shadow
+
