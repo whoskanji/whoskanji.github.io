@@ -63,3 +63,18 @@ Description: The tweak snapchat needs... (tap "shadow" to open the menu)
 Author: Wyatt + Kanji
 Name: [TEST] Shadow
 
+Package: com.wyattgahm.snapshot
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Wyatt
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wyattgahm.snapshot_0.0.1+debug_iphoneos-arm.deb
+Size: 4958
+MD5sum: 0e0aaed4bbbdd85e2171d322ed7ee179
+SHA1: e0435c734d5485426aa5f88119fee471ebd14965
+SHA256: 3eeb04a30f349818d4d9fd81f65f8407b5d1bad1370f3d4c155d7ec196f984aa
+Section: Tweaks
+Description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
+Author: Wyatt
+Name: SnapShot
+
