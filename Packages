@@ -12,6 +12,7 @@ Section: Apps
 Priority: optional
 Description: Adult App just because.
 Author: Kanji <tyler.clinton@icloud.com>
+Depiction: https://whoskanji.com/depictions/com.kanji.climax/
 Dev: Kanji
 Name: Climax
 
@@ -29,7 +30,7 @@ SHA256: 9d479dc251673ddf377f52d705022de59533df158dd96ef51ca1b9f46a89ea39
 Section: Tweaks
 Description: Snapbreak is a Snapchat tweak that allow you to save/upload medias, disable screeshots and many more features!
 Author: Kanji
-Depiction: https://whoskanji.github.io/depictions/snapbreak
+Depiction: https://whoskanji.com/depictions/com.kanji.snapbreaknotd/
 Name: Snapbreak (READ DESCRIPTION)
 
 Package: com.wyattgahm.shadow
@@ -46,6 +47,7 @@ SHA256: 22287404f3540d375e083538c0ff4e4d80007917a1aed2d8196fd72eab2271e8
 Section: Tweaks
 Description: The tweak snapchat needs... (tap "shadow" to open the menu)
 Author: Wyatt + Kanji
+Depiction: https://whoskanji.com/depictions/com.kanji.shadow/
 Name: Shadow
 
 Package: com.wyattgahm+kanji.test
@@ -61,6 +63,7 @@ SHA256: 2f0ed4ca1716c48fa2ca047f68cf17cd301944596403d8bc11c4c366300177ec
 Section: Tweaks
 Description: The tweak snapchat needs... (tap "shadow" to open the menu)
 Author: Wyatt + Kanji
+Depiction: https://whoskanji.com/depictions/com.kanji.shadow/
 Name: [TEST] Shadow
 
 Package: com.wyattgahm.snapshot
