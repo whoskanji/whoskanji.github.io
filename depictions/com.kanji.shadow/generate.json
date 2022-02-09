@@ -1,0 +1,78 @@
+{
+    "class": "DepictionTabView",
+    "tintColor": "#0657bb",
+    "minVersion": "0.1",
+    "headerImage": "https://i.ibb.co/1r97CGv/Banner.png",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "Shadow",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "The tweak Snapchat needs... (tap \"shadow\" to open the menu)",
+                    "useSpacing": true
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "url": "https://i.ibb.co/k0djLk7/ss1.png",
+                            "accessibilityText": "Screenshot0"
+                        }
+                    ],
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "markdown": "The tweak Snapchat needs... (tap \"shadow\" to open the menu)",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "02-09-2022",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Kanji + Wyatt Gahm",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ]
+}
