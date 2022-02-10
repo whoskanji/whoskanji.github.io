@@ -16,23 +16,6 @@ Depiction: https://whoskanji.com/depictions/com.kanji.climax/
 Dev: Kanji
 Name: Climax
 
-Package: com.kanji.snapbreaknotd
-Version: 1.7.1
-Architecture: iphoneos-arm
-Maintainer: Kanji
-Depends: mobilesubstrate, sed, ldid
-Conflicts: com.cokepokes.snapdecent, com.cokepokes.libphantom, com.cokepokes.spectre, tv.othman.scothman, tv.othman.scothman.ios11, com.s0me1ne.betaatweakdisabler, fr.s0me1ne.betasnapbreak, com.s0me1ne.atweakdisabler, fr.s0me1ne.snapbreak
-Filename: ./debs/com.kanji.snapbreaknotd_1.7.1_iphoneos-arm.deb
-Size: 6302002
-MD5sum: ba8a2ab29263350400079d3597786c77
-SHA1: 99bb1c8051800e70e45a3cf89b42f857ae1c9f8a
-SHA256: 9d479dc251673ddf377f52d705022de59533df158dd96ef51ca1b9f46a89ea39
-Section: Tweaks
-Description: Snapbreak is a Snapchat tweak that allow you to save/upload medias, disable screeshots and many more features!
-Author: Kanji
-Depiction: https://whoskanji.com/depictions/com.kanji.snapbreaknotd/
-Name: Snapbreak (READ DESCRIPTION)
-
 Package: com.wyattgahm.shadow
 Version: 11.39.0-51+debug
 Architecture: iphoneos-arm
@@ -50,22 +33,6 @@ Author: Wyatt + Kanji
 Depiction: https://whoskanji.com/depictions/com.kanji.shadow/
 Name: Shadow
 
-Package: com.wyattgahm+kanji.test
-Version: 11.39.0-27+debug
-Architecture: iphoneos-arm
-Maintainer: Kanji + Wyatt
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyatt+kanji.shadow_11.39.0-27+debug_iphoneos-arm.deb
-Size: 65324
-MD5sum: d37bbf35f4eac43e5aeafd81e55ba02c
-SHA1: 7dfbdee6445f89d2528b30c7db974eb35321dc98
-SHA256: 2f0ed4ca1716c48fa2ca047f68cf17cd301944596403d8bc11c4c366300177ec
-Section: Tweaks
-Description: The tweak snapchat needs... (tap "shadow" to open the menu)
-Author: Wyatt + Kanji
-Depiction: https://whoskanji.com/depictions/com.kanji.shadow/
-Name: [TEST] Shadow
-
 Package: com.wyattgahm.snapshot
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -80,4 +47,3 @@ Section: Tweaks
 Description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
 Author: Wyatt
 Name: SnapShot
-

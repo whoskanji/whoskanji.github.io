@@ -3,12 +3,12 @@
   bundleid: com.kanji.shadow
   icon: default
 
-- name: Snapbreak (Soon to be dead)
-  description: Snapbreak allows you to save/upload media from camera roll, spoof location, and so much more!
-  bundleid: com.kanji.snapbreaknotd
-  icon: default
-
 - name: Climax
   description: Climax is an adult application to view your favorite adult sites without tracking history!
   bundleid: com.kanji.climax
+  icon: default
+
+- name: SnapShot
+  description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
+  bundleid: com.wyattgahm.snapshot
   icon: default
