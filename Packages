@@ -16,23 +16,6 @@ Depiction: https://whoskanji.com/depictions/com.kanji.climax/
 Dev: Kanji
 Name: Climax
 
-Package: com.wyattgahm.shadow
-Version: 11.39.0-51+debug
-Architecture: iphoneos-arm
-Maintainer: Kanji + Wyatt
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm.shadow_11.39.0-51debug_iphoneos-arm.deb
-Size: 49754
-MD5sum: 44da931b9cbe5831b4ae967e0c3ac624
-SHA1: d06526af335fef2cb3f32df578d10e15f0b65226
-SHA256: 22287404f3540d375e083538c0ff4e4d80007917a1aed2d8196fd72eab2271e8
-Section: Tweaks
-Description: The tweak snapchat needs... (tap "shadow" to open the menu)
-Author: Wyatt + Kanji
-Depiction: https://whoskanji.com/depictions/com.kanji.shadow/
-Name: Shadow
-
 Package: com.wyattgahm.snapshot
 Version: 0.0.1
 Architecture: iphoneos-arm
