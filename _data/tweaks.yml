@@ -1,8 +1,3 @@
-- name: Shadow
-  description: Shadow is a new Snapchat tweak that is aimed to replace Snapbreak.
-  bundleid: com.kanji.shadow
-  icon: default
-
 - name: Climax
   description: Climax is an adult application to view your favorite adult sites without tracking history!
   bundleid: com.kanji.climax
