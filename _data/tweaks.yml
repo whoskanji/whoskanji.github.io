@@ -7,3 +7,8 @@
   description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
   bundleid: com.wyattgahm.snapshot
   icon: default
+
+- name: Shadow X (Beta)
+  description: The tweak that Snapchat needs. (CAN CAUSE LOCKS. USE AT YOUR OWN RISK BUT SHOULD BE WORKING BETTER THAN IT DID)
+  bundleid: com.wyattgahm-kanji.shadowx
+  icon: default

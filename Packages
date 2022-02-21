@@ -30,3 +30,18 @@ Section: Tweaks
 Description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
 Author: Wyatt
 Name: SnapShot
+
+Package: com.wyattgahm-kanji.shadowx
+Version: 1.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Wyatt X Kanji
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wyattgahm.shadowx_1.0.1-3debug_iphoneos-arm.deb
+Size: 135708
+MD5sum: b187b17113d85d9ffe69f852bdfbf2ff
+SHA1: c2b3c24b5653023bf36023366b3e4c91380b2833
+SHA256: c47ebc7aaf3fb2e3a4c379d3efcd7ab4ea923dd85d127d6b05d1c5f66653fa01
+Section: Tweaks
+Description: The tweak that Snapchat needs. (CAN CAUSE LOCKS. USE AT YOUR OWN RISK BUT SHOULD BE WORKING BETTER THAN IT DID)
+Author: Wyatt X Kanji
+Name: Shadow X (Beta)
