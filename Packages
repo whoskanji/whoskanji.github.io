@@ -28,6 +28,7 @@ SHA1: e0435c734d5485426aa5f88119fee471ebd14965
 SHA256: 3eeb04a30f349818d4d9fd81f65f8407b5d1bad1370f3d4c155d7ec196f984aa
 Section: Tweaks
 Description: Disabled screenshot notification on Snapchat. Works most recent version. Use at your own risk.
+Depiction: https://whoskanji.com/depictions/com.wyattgahm.snapshot/
 Author: Wyatt
 Name: SnapShot
 
