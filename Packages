@@ -43,5 +43,6 @@ SHA1: b6c46a17b9f9bc5eeec90670f15c492c4fd67154
 SHA256: 338aeb4e914193b2fda268f2ae4710338ef5211d0c30c972ea56eeafd7bc1d38
 Section: Tweaks
 Description: The tweak that Snapchat needs. (CAN CAUSE LOCKS. USE AT YOUR OWN RISK BUT SHOULD BE WORKING BETTER THAN IT DID)
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt X Kanji
 Name: Shadow X (Beta)
