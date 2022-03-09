@@ -47,3 +47,19 @@ Description: The tweak that Snapchat needs. (CAN CAUSE LOCKS. USE AT YOUR OWN RI
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt X Kanji
 Name: Shadow X (Beta)
+
+Package: com.kanji.cydia-installer
+Version: 1.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Kanji
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils
+Filename: ./debs/com.kanji.cydia-installer_1.1.36-2_iphoneos-arm.deb
+Size: 1495444
+MD5sum: 4161430f23803f902b42f46ca5379bd9
+SHA1: 692bcf90bf916595d74ff9d78c02d704ac39352d
+SHA256: dfaf7891aac5cbb597dec5b0ddec6bc36bf51749f2556ca395d00e2d13a00676
+Section: Packaging
+Description: A somewhat modern version of Cydia from the Procursus repo, available for Checkra1n + Unc0ver devices.
+Author: Jay Freeman
+Priority: important
+Name: Cydia Installer
