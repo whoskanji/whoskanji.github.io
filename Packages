@@ -59,6 +59,6 @@ MD5sum: dd1c0a1a56061d5550fbac3a9d254721
 SHA1: 181e0d67c87a5f4febf3170d68943b0585259321
 SHA256: d868fe8156f34b32323995ce00b31508909a8300fc72a0a0229ce5d2a0ed9265
 Section: Packaging
-Description: A somwhat modern version of Cydia Intaller from the Procursus repo. Modified to allow installation on all devices/jailbreaks.
+Description: DO NOT INSTALL IF YOU ARE AN AVERAGE USER!!!!!! A somwhat modern version of Cydia Intaller from the Procursus repo. Modified to allow installation on all devices/jailbreaks.
 Author: Jay Freeman
 Name: Cydia Installer
