@@ -33,15 +33,15 @@ Author: Wyatt
 Name: SnapShot
 
 Package: com.wyattgahm-kanji.shadowx
-Version: 1.0.1-41
+Version: 1.0.1-42
 Architecture: iphoneos-arm
 Maintainer: Wyatt X Kanji
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kanji.shadowx_1.0.1-41+debug_iphoneos-arm.deb
-Size: 128114
-MD5sum: 89b7fd8d3c269c44d26ea8a7f379d495
-SHA1: 6ea82c5d78bec8ae39d8b14e9ab3220d01423d7b
-SHA256: aab28c0813b19a998e4c4a6984532dd691ac79125161745aedb848f49539d0e7
+Filename: ./debs/com.wyattgahm-kanji.shadowx_1.0.1-42+debug_iphoneos-arm.deb
+Size: 128118
+MD5sum: b5421d7a7676e70a140e617b1fcbc00c
+SHA1: a52dbb19c50acdae93f519254c1280b27f965ba8
+SHA256: aa96afe737d56402c898e5c2647a4b8e7c3dea5ea06eb65b3e834d3606e5c205
 Section: Tweaks
 Description: The tweak that Snapchat needs. (CAN CAUSE LOCKS. USE AT YOUR OWN RISK BUT SHOULD BE WORKING BETTER THAN IT DID)
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
