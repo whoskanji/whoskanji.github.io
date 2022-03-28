@@ -17,18 +17,18 @@ Dev: Kanji
 Name: Climax
 
 Package: com.wyattgahm-kanji.shadowx
-Version: 1.0.1-1
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Wyatt + Kanji
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm-kanji.shadowx_1.0.1-1+debug_iphoneos-arm.deb
-Size: 128118
-MD5sum: b5421d7a7676e70a140e617b1fcbc00c
-SHA1: a52dbb19c50acdae93f519254c1280b27f965ba8
-SHA256: aa96afe737d56402c898e5c2647a4b8e7c3dea5ea06eb65b3e834d3606e5c205
+Filename: ./debs/com.wyattgahm-kanji.shadowx_1.1_iphoneos-arm.deb
+Size: 63446
+MD5sum: 2c2629c170dec5823914c33bb2f66670
+SHA1: cce4c05177016db6db4b657a06fb1f3d75b2ce6c
+SHA256: 26dbe8e3501d933f74b007f74e52aefd5b899958bd91d64f37355fd278530839
 Section: Tweaks
 Description: The tweak Snapchat needs
-Depiction: https://whoskanji.com/depictions/com.wyattgahm.snapshot/
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt + Kanji
 Name: Shadow X (Beta)
 
