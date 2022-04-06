@@ -33,32 +33,33 @@ Author: Wyatt
 Name: SnapShot
 
 Package: com.wyattgahm-kanji.shadowx
-Version: 1.1
+Version: 2.0.1
 Architecture: iphoneos-arm
 Maintainer: Wyatt x Kanji
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm-kanji.shadowx_1.1_iphoneos-arm.deb
-Size: 63422
-MD5sum: 54c5552c38a3f9d33d5e610683f7ea13
-SHA1: c77217d627bd81d73203a00ba6e0c41d8be95fc5
-SHA256: 69b94b0f740da8bd68729312abf45ab4535566d106ddfc77f563e83bb72935ec
+Filename: ./debs/com.wyattgahm-kanji.shadowx_2.0.1_iphoneos-arm.deb
+Size: 63144
+MD5sum: 96b6181ed43d58902bd0083befb47e16
+SHA1: 08df56031085e5dc4b90343d463800a8f3104f8c
+SHA256: d173786ecaf1196855ce16a6f05e9f4811887c7635f3b582550636f23ba59702
 Section: Tweaks
 Description: Shadow X for Snapchat - For use with Snapchat v11.65+
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt x Kanji
-Name: Shadow X (Beta)
+Name: Shadow X
 
-Package: cydia
-Version: 1.1.36-2
+Package: com.wyattgahm-kanji.shadowx12
+Version: 2.0.1
 Architecture: iphoneos-arm
-Maintainer: Kanji
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils
-Filename: ./debs/cydia_1.1.36-2_iphoneos-arm.deb
-Size: 1495430
-MD5sum: dd1c0a1a56061d5550fbac3a9d254721
-SHA1: 181e0d67c87a5f4febf3170d68943b0585259321
-SHA256: d868fe8156f34b32323995ce00b31508909a8300fc72a0a0229ce5d2a0ed9265
-Section: Packaging
-Description: DO NOT INSTALL IF YOU ARE AN AVERAGE USER!!!!!! A somwhat modern version of Cydia Intaller from the Procursus repo. Modified to allow installation on all devices/jailbreaks.
-Author: Jay Freeman
-Name: Cydia Installer
+Maintainer: Wyatt x Kanji
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wyattgahm-kanji.shadowx12_2.0.1_iphoneos-arm.deb
+Size: 63336
+MD5sum: 14794c820c00531699e0585a25d5d969
+SHA1: 40361a5c888e7737846c1233e20b4799f8266f8e
+SHA256: cf4d4543092ca43dd292698c6f575c61cb1128908449d8c67d34c0fbf9eaa54d
+Section: Tweaks
+Description: Shadow X (iOS 12) for Snapchat - For use with Snapchat v11.65+
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
+Author: Wyatt x Kanji
+Name: Shadow X (iOS 12)
