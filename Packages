@@ -33,15 +33,15 @@ Author: Wyatt
 Name: SnapShot
 
 Package: com.wyattgahm-kanji.shadowx
-Version: 2.0.1
+Version: 2.0.2
 Architecture: iphoneos-arm
 Maintainer: Wyatt x Kanji
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm-kanji.shadowx_2.0.1_iphoneos-arm.deb
-Size: 63144
-MD5sum: 96b6181ed43d58902bd0083befb47e16
-SHA1: 08df56031085e5dc4b90343d463800a8f3104f8c
-SHA256: d173786ecaf1196855ce16a6f05e9f4811887c7635f3b582550636f23ba59702
+Filename: ./debs/com.wyattgahm-kanji.shadowx_2.0.2_iphoneos-arm.deb
+Size: 62412
+MD5sum: a2cb06f8404bc3a4281a3c3b3d8ab00d
+SHA1: 7e676e4c41c8c5a916dc44478cfe4db4552fc8a1
+SHA256: 8190aea22ae61873c9437a511af13bcf09be7785d23a8d88cbdb61b12b182ad6
 Section: Tweaks
 Description: Shadow X for Snapchat - For use with Snapchat v11.65+
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
