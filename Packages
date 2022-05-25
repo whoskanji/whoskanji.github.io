@@ -63,3 +63,36 @@ Description: Shadow X (iOS 12) for Snapchat - For use with Snapchat v11.65+
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt x Kanji
 Name: Shadow X (iOS 12)
+
+Package: com.no5up-kanji.librelic
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: no5up x Kanji
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.no5up-kanji.librelic_2.1.1_iphoneos-arm.deb
+Size: 6528
+MD5sum: da8a2c0144047ade4d9b54f04e7982c0
+SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
+SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
+Section: Tweaks
+Description: library for Snapchat hooking.
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
+Author: no5up x Kanji
+Name: librelic
+
+Package: com.no5up-kanji.relicloader
+Version: 3.3.0
+Architecture: iphoneos-arm
+Maintainer: no5up x Kanji
+Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.librelic (>= 2.1.1)
+Conflicts: com.wyattgahm-kanji.shadowx
+Filename: ./debs/com.no5up-kanji.relicloader_3.3.0_iphoneos-arm.deb
+Size: 318552
+MD5sum: e2a79043dc7c0e54cb006f168dcb4e30
+SHA1: b8f332afdb464d364959dcd5d361272d376b8fc2
+SHA256: d2d85bacdc69decfcdedc3d79c0148349a5791dcff43f9c63ad962a240a6a70d
+Section: Tweaks
+Description: A ShadowX implementation for librelic 2.1.x
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
+Author: no5up x Kanji
+Name: relicloader
