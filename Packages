@@ -96,3 +96,19 @@ Description: A ShadowX implementation for librelic 2.1.x
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: no5up x Kanji
 Name: relicloader
+
+Package: com.kanji.pikaghost
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Kanji
+Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.relicloader (>= 3.3.0)
+Filename: ./debs/com.kanji.pikaghost_1.1_iphoneos-arm.deb
+Size: 223094
+MD5sum: 2fe39736f9548072f519e5b9a9832e59
+SHA1: e57db7522bf015ea58fd61013093daf50243ba4f
+SHA256: f57f27281deb22cd27be7dbf8cc36da13dfd9f19655d17ff0d765d0761c708af
+Section: Themes (relicloader)
+Description: A Pikachu theme for relicloader.
+Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
+Author: Kanji
+Name: PikaGhost
