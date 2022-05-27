@@ -81,16 +81,16 @@ Author: no5up x Kanji
 Name: librelic
 
 Package: com.no5up-kanji.relicloader
-Version: 3.3.1
+Version: 3.3.2
 Architecture: iphoneos-arm
 Maintainer: no5up x Kanji
 Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.librelic (>= 2.1.1)
 Conflicts: com.wyattgahm-kanji.shadowx
-Filename: ./debs/com.no5up-kanji.relicloader_3.3.1_iphoneos-arm.deb
-Size: 318084
-MD5sum: c9e3eea8ecdc314be25eb96f56a31c34
-SHA1: a57d5e9e9a88b2280c188ba86f1806e4c4ae942d
-SHA256: cc1053dc92f3b7ec8de13af981af53802ccc597035ad207c82d24e4d52894d08
+Filename: ./debs/com.no5up-kanji.relicloader_3.3.2_iphoneos-arm.deb
+Size: 316104
+MD5sum: f5b865d0e61079ee419e99e96d411833
+SHA1: f032c6fc8e5d495eec4af15d28315386eb87c03f
+SHA256: 8f444d3d56dd61dbd15a3c481daab4466357e34f3c6326d68617fdae26dfba58
 Section: Tweaks
 Description: A ShadowX implementation for librelic 2.1.x
 Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
