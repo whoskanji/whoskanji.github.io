@@ -12,7 +12,6 @@ Section: Apps
 Priority: optional
 Description: Adult App just because.
 Author: Kanji <tyler.clinton@icloud.com>
-Depiction: https://whoskanji.com/depictions/com.kanji.climax/
 Dev: Kanji
 Name: Climax
 
@@ -28,7 +27,6 @@ SHA1: 40361a5c888e7737846c1233e20b4799f8266f8e
 SHA256: cf4d4543092ca43dd292698c6f575c61cb1128908449d8c67d34c0fbf9eaa54d
 Section: Tweaks
 Description: Shadow X (iOS 12) for Snapchat - For use with Snapchat v11.65+
-Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Wyatt x Kanji
 Name: Shadow X (iOS 12)
 
@@ -44,7 +42,6 @@ SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
 SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
 Section: Tweaks
 Description: library for Snapchat hooking.
-Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: no5up x Kanji
 Name: librelic
 
@@ -61,7 +58,6 @@ SHA1: b42786d29c0f11c50de5020555a86d31c11c37f4
 SHA256: dd22d0dfd1a52ef7b48ad5cd6687d1d4d3b0a1a457aae291b87159620cd3b008
 Section: Tweaks
 Description: A ShadowX implementation for librelic 2.1.x
-Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: no5up x Kanji
 Name: relicloader
 
@@ -77,6 +73,5 @@ SHA1: e57db7522bf015ea58fd61013093daf50243ba4f
 SHA256: f57f27281deb22cd27be7dbf8cc36da13dfd9f19655d17ff0d765d0761c708af
 Section: Themes (relicloader)
 Description: A Pikachu theme for relicloader.
-Depiction: https://whoskanji.com/depictions/com.wyattgahm-kanji.shadowx/
 Author: Kanji
 Name: PikaGhost
