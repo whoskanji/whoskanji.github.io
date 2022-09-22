@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   
-  background: url(../img/abstractgif.gif) top center;
+  background: url("https://i.pinimg.com/originals/54/61/a0/5461a0abbbbb687149736c068651fc23.gif") top center;
   background-size: cover;
   position: relative;
 }
