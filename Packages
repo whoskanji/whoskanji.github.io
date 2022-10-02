@@ -15,10 +15,75 @@ Author: Kanji <tyler.clinton@icloud.com>
 Dev: Kanji
 Name: Climax
 
+Package: com.kanji.pikaghost
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Kanji
+Installed-Size: 712
+Filename: ./debs/com.kanji.pikaghost_1.1_iphoneos-arm.deb
+Size: 223094
+MD5sum: 2fe39736f9548072f519e5b9a9832e59
+SHA1: e57db7522bf015ea58fd61013093daf50243ba4f
+SHA256: f57f27281deb22cd27be7dbf8cc36da13dfd9f19655d17ff0d765d0761c708af
+Section: Themes
+Description: Pikachu theme for relicloader
+Author: Kanji
+Name: PikaGhost
+
+Package: com.no5up-kanji.librelic
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: no5up + Kanji
+Installed-Size: 164
+Depends: mobilesubstrate (>= 0.9.5.000)
+Filename: ./debs/com.no5up-kanji.librelic_2.1.1_iphoneos-arm.deb
+Size: 6528
+MD5sum: da8a2c0144047ade4d9b54f04e7982c0
+SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
+SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
+Section: Development
+Description: library for Snapchat hooking
+Author: no5up + Kanji
+Name: librelic
+
+Package: com.no5up-kanji.relicloader
+Version: 3.3.3
+Architecture: iphoneos-arm
+Maintainer: no5up + Kanji
+Installed-Size: 2664
+Depends: mobilesubstrate, com.no5up-kanji.librelic
+Conflicts: com.wyattgahm-kanji.shadowx
+Filename: ./debs/com.no5up-kanji.relicloader_3.3.3_iphoneos-arm.deb
+Size: 320900
+MD5sum: 259c9a711a10b784873d5e195b47aab0
+SHA1: b42786d29c0f11c50de5020555a86d31c11c37f4
+SHA256: dd22d0dfd1a52ef7b48ad5cd6687d1d4d3b0a1a457aae291b87159620cd3b008
+Section: Development
+Description: A ShadowX implementation for librelic 2.1
+Author: no5up + Kanji
+Name: relicloader
+
+Package: com.wyattgahm-kanji.shadowx
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: no5up x Kanji
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wyattgahm-kanji.shadowx_2.0.2_iphoneos-arm.deb
+Size: 62412
+MD5sum: a2cb06f8404bc3a4281a3c3b3d8ab00d
+SHA1: 7e676e4c41c8c5a916dc44478cfe4db4552fc8a1
+SHA256: 8190aea22ae61873c9437a511af13bcf09be7785d23a8d88cbdb61b12b182ad6
+Section: Tweaks
+Description: Shadow X for Snapchat - For use with Snapchat v11.65+
+Author: no5up x Kanji
+Name: Shadow X (Public Beta)
+
 Package: com.wyattgahm-kanji.shadowx12
 Version: 2.0.1
 Architecture: iphoneos-arm
-Maintainer: Wyatt x Kanji
+Maintainer: no5up x Kanji
+Installed-Size: 336
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.wyattgahm-kanji.shadowx12_2.0.1_iphoneos-arm.deb
 Size: 63336
@@ -26,52 +91,7 @@ MD5sum: 14794c820c00531699e0585a25d5d969
 SHA1: 40361a5c888e7737846c1233e20b4799f8266f8e
 SHA256: cf4d4543092ca43dd292698c6f575c61cb1128908449d8c67d34c0fbf9eaa54d
 Section: Tweaks
-Description: Shadow X (iOS 12) for Snapchat - For use with Snapchat v11.65+
-Author: Wyatt x Kanji
+Description: Shadow X for Snapchat - For use with Snapchat v11.65+ and iOS 12+
+Author: no5up x Kanji
 Name: Shadow X (iOS 12)
 
-Package: com.no5up-kanji.librelic
-Version: 2.1.1
-Architecture: iphoneos-arm
-Maintainer: no5up x Kanji
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.no5up-kanji.librelic_2.1.1_iphoneos-arm.deb
-Size: 6528
-MD5sum: da8a2c0144047ade4d9b54f04e7982c0
-SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
-SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
-Section: Tweaks
-Description: library for Snapchat hooking.
-Author: no5up x Kanji
-Name: librelic
-
-Package: com.no5up-kanji.relicloader
-Version: 3.3.3
-Architecture: iphoneos-arm
-Maintainer: no5up x Kanji
-Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.librelic (>= 2.1.1)
-Conflicts: com.wyattgahm-kanji.shadowx
-Filename: ./debs/com.no5up-kanji.relicloader_3.3.3_iphoneos-arm.deb
-Size: 320900
-MD5sum: 259c9a711a10b784873d5e195b47aab0
-SHA1: b42786d29c0f11c50de5020555a86d31c11c37f4
-SHA256: dd22d0dfd1a52ef7b48ad5cd6687d1d4d3b0a1a457aae291b87159620cd3b008
-Section: Tweaks
-Description: A ShadowX implementation for librelic 2.1.x
-Author: no5up x Kanji
-Name: relicloader
-
-Package: com.kanji.pikaghost
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Kanji
-Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.relicloader (>= 3.3.0)
-Filename: ./debs/com.kanji.pikaghost_1.1_iphoneos-arm.deb
-Size: 223094
-MD5sum: 2fe39736f9548072f519e5b9a9832e59
-SHA1: e57db7522bf015ea58fd61013093daf50243ba4f
-SHA256: f57f27281deb22cd27be7dbf8cc36da13dfd9f19655d17ff0d765d0761c708af
-Section: Themes (relicloader)
-Description: A Pikachu theme for relicloader.
-Author: Kanji
-Name: PikaGhost
