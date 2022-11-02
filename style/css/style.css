@@ -396,6 +396,130 @@ section {
   background: #1d1d1d;
   padding: 80px 0;
 }
+#repo {
+  background: #1d1d1d;
+  padding: 80px 0;
+}
+#repo .features-container .content {
+  background: #1d1d1d;
+}
+#repo .features-container .title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+@media (max-width: 768px) {
+  #repo .features-container .title {
+    padding-top: 15px;
+  }
+}
+#repo .features-container p {
+  line-height: 26px;
+}
+#repo .features-container p:last-child {
+  margin-bottom: 0;
+}
+#repo .features-container .icon-box {
+  background: #1d1d1d;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+#repo .features-container .icon-box .icon {
+  float: left;
+  background: #1d1d1d;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #9b51e0;
+}
+#repo .features-container .icon-box .icon i {
+  color: #9b51e0;
+  font-size: 24px;
+  line-height: 0;
+}
+#repo .features-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#repo .features-container .icon-box .title a {
+  color: #444444;
+}
+#repo .features-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#faq {
+  background: #1d1d1d;
+  padding: 80px 0;
+}
+#faq .features-container .content {
+  background: #1d1d1d;
+}
+#faq .features-container .title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+@media (max-width: 768px) {
+  #faq .features-container .title {
+    padding-top: 15px;
+  }
+}
+#faq .features-container p {
+  line-height: 26px;
+}
+#faq .features-container p:last-child {
+  margin-bottom: 0;
+}
+#faq .features-container .icon-box {
+  background: #1d1d1d;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+#faq .features-container .icon-box .icon {
+  float: left;
+  background: #1d1d1d;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #9b51e0;
+}
+#faq .features-container .icon-box .icon i {
+  color: #9b51e0;
+  font-size: 24px;
+  line-height: 0;
+}
+#faq .features-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#faq .features-container .icon-box .title a {
+  color: #444444;
+}
+#faq .features-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
 #Question {
   background: #1d1d1d;
   padding: 80px 0;
