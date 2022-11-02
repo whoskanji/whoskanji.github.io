@@ -63,22 +63,6 @@ Description: A ShadowX implementation for librelic 2.1
 Author: no5up + Kanji
 Name: relicloader
 
-Package: com.wyattgahm-kanji.shadowx
-Version: 2.0.2
-Architecture: iphoneos-arm
-Maintainer: no5up x Kanji
-Installed-Size: 340
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm-kanji.shadowx_2.0.2_iphoneos-arm.deb
-Size: 62412
-MD5sum: a2cb06f8404bc3a4281a3c3b3d8ab00d
-SHA1: 7e676e4c41c8c5a916dc44478cfe4db4552fc8a1
-SHA256: 8190aea22ae61873c9437a511af13bcf09be7785d23a8d88cbdb61b12b182ad6
-Section: Tweaks
-Description: Shadow X for Snapchat - For use with Snapchat v11.65+
-Author: no5up x Kanji
-Name: Shadow X (Public Beta)
-
 Package: com.wyattgahm-kanji.shadowx12
 Version: 2.0.1
 Architecture: iphoneos-arm
