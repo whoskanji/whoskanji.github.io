@@ -1,81 +1,35 @@
-Package: com.kanji.cl1m4x
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: Kanji <tyler.clinton@icloud.com>
-Depends: firmware (>= 12.0)
-Filename: ./debs/com.kanji.cl1m4x_1.3_iphoneos-arm.deb
-Size: 17227872
-MD5sum: cd496b443666316e26d5beadc2076a56
-SHA1: 1c76306dfce5a0f016f894d047ab3c9d15e5460f
-SHA256: 44c693d22a40262fc54e61eba9383635c1a2efdd9b02b5dcb9a4e0bd55ee133b
-Section: Apps
-Priority: optional
-Description: Adult App just because.
-Author: Kanji <tyler.clinton@icloud.com>
-Dev: Kanji
-Name: Climax
-
-Package: com.kanji.pikaghost
+Package: com.kanji.null
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Kanji
-Installed-Size: 712
-Filename: ./debs/com.kanji.pikaghost_1.1_iphoneos-arm.deb
-Size: 223094
-MD5sum: 2fe39736f9548072f519e5b9a9832e59
-SHA1: e57db7522bf015ea58fd61013093daf50243ba4f
-SHA256: f57f27281deb22cd27be7dbf8cc36da13dfd9f19655d17ff0d765d0761c708af
-Section: Themes
-Description: Pikachu theme for relicloader
-Author: Kanji
-Name: PikaGhost
-
-Package: com.no5up-kanji.librelic
-Version: 2.1.1
-Architecture: iphoneos-arm
-Maintainer: no5up + Kanji
+Maintainer: Sema
 Installed-Size: 164
 Depends: mobilesubstrate (>= 0.9.5.000)
-Filename: ./debs/com.no5up-kanji.librelic_2.1.1_iphoneos-arm.deb
-Size: 6528
-MD5sum: da8a2c0144047ade4d9b54f04e7982c0
-SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
-SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
+Conflicts: com.no5up-kanji.librelic
+Replaces: com.no5up-kanji.librelic
+Filename: ./debs/com.kanji.null_1.1_iphoneos-arm.deb
+Size: 6728
+MD5sum: a257a1cdf2d394066ffa00e1a4d0d19b
+SHA1: 85436a10e83265a6d707ddb19d79af68e0726d09
+SHA256: 624f05676700c63771a6076505a9c0181f19e699d0dd70f8dce1bf33423b39a1
 Section: Development
-Description: library for Snapchat hooking
-Author: no5up + Kanji
-Name: librelic
+Description: the library that iota runs on to stay undetected.
+Author: Sema
+Name: null
 
-Package: com.no5up-kanji.relicloader
-Version: 3.3.3
+Package: dev.kanji.iota
+Version: 2.2
 Architecture: iphoneos-arm
-Maintainer: no5up + Kanji
-Installed-Size: 2664
-Depends: mobilesubstrate, com.no5up-kanji.librelic
-Conflicts: com.wyattgahm-kanji.shadowx
-Filename: ./debs/com.no5up-kanji.relicloader_3.3.3_iphoneos-arm.deb
-Size: 320900
-MD5sum: 259c9a711a10b784873d5e195b47aab0
-SHA1: b42786d29c0f11c50de5020555a86d31c11c37f4
-SHA256: dd22d0dfd1a52ef7b48ad5cd6687d1d4d3b0a1a457aae291b87159620cd3b008
-Section: Development
-Description: A ShadowX implementation for librelic 2.1
-Author: no5up + Kanji
-Name: relicloader
-
-Package: com.wyattgahm-kanji.shadowx12
-Version: 2.0.1
-Architecture: iphoneos-arm
-Maintainer: no5up x Kanji
-Installed-Size: 336
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wyattgahm-kanji.shadowx12_2.0.1_iphoneos-arm.deb
-Size: 63336
-MD5sum: 14794c820c00531699e0585a25d5d969
-SHA1: 40361a5c888e7737846c1233e20b4799f8266f8e
-SHA256: cf4d4543092ca43dd292698c6f575c61cb1128908449d8c67d34c0fbf9eaa54d
+Maintainer: Sema
+Installed-Size: 848
+Depends: mobilesubstrate, com.sema.null
+Replaces: com.wyattgahm.shadowx
+Filename: ./debs/dev.kanji.iota_2.2_iphoneos-arm.deb
+Size: 395666
+MD5sum: 5b242cd3b6c649f3e15c1fff4dc51cb5
+SHA1: 0ed9c70600780619dddc0fcab71d2ea25047bbb7
+SHA256: ef6d97c52d5dd0086100992b94cfccbc131b2ea40584fea293bbff38a45d5468
 Section: Tweaks
-Description: Shadow X for Snapchat - For use with Snapchat v11.65+ and iOS 12+
-Author: no5up x Kanji
-Name: Shadow X (iOS 12)
+Description: Revived from the dead, iota is a free alternative to Wicked. It is based off the source code that Kanji posted.
+Author: Sema
+Name: iota
 
