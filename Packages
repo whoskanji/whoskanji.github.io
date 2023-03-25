@@ -1,35 +1,35 @@
 Package: com.kanji.null
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Sema
+Maintainer: Kanji
 Installed-Size: 164
 Depends: mobilesubstrate (>= 0.9.5.000)
 Conflicts: com.no5up-kanji.librelic
 Replaces: com.no5up-kanji.librelic
 Filename: ./debs/com.kanji.null_1.1_iphoneos-arm.deb
-Size: 6728
-MD5sum: a257a1cdf2d394066ffa00e1a4d0d19b
-SHA1: 85436a10e83265a6d707ddb19d79af68e0726d09
-SHA256: 624f05676700c63771a6076505a9c0181f19e699d0dd70f8dce1bf33423b39a1
+Size: 6730
+MD5sum: 3bd4e3305814f4b367e56db3e4b3972a
+SHA1: 6eb47c8008dd5cbb9f75017fc3f84fca776f00fa
+SHA256: 4eaaf97cf816752099de7cc6608cd9321be17902739148c6ff54102d8d81fb67
 Section: Development
 Description: the library that iota runs on to stay undetected.
-Author: Sema
+Author: Kanji
 Name: null
 
 Package: dev.kanji.iota
 Version: 2.2
 Architecture: iphoneos-arm
-Maintainer: Sema
+Maintainer: Kanji
 Installed-Size: 848
-Depends: mobilesubstrate, com.sema.null
+Depends: mobilesubstrate, com.kanji.null
 Replaces: com.wyattgahm.shadowx
 Filename: ./debs/dev.kanji.iota_2.2_iphoneos-arm.deb
-Size: 395666
-MD5sum: 5b242cd3b6c649f3e15c1fff4dc51cb5
-SHA1: 0ed9c70600780619dddc0fcab71d2ea25047bbb7
-SHA256: ef6d97c52d5dd0086100992b94cfccbc131b2ea40584fea293bbff38a45d5468
+Size: 395726
+MD5sum: a567377efaf6bcf48007ce905be61622
+SHA1: aad8aee9f6e8492571c2d4c7ece2368685e8a290
+SHA256: abd28931afbb748e5858da5199d390732ec706be8da67ade22c8b15b7dcba7a6
 Section: Tweaks
 Description: Revived from the dead, iota is a free alternative to Wicked. It is based off the source code that Kanji posted.
-Author: Sema
+Author: Kanji
 Name: iota
 
