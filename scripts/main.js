@@ -1,5 +1,69 @@
 const app = document.querySelector("#app");
 const delay = ms => new Promise(res => setTimeout(res, ms));
+const closeButton = document.getElementById('close-button');
+const minimizeButton = document.getElementById('minimize-button');
+const maximizeButton = document.getElementById('maximize-button');
+
+const titleBar = document.querySelector('.menu');
+const container = document.querySelector('.container');
+
+let isDragging = false;
+let offsetX, offsetY;
+
+titleBar.addEventListener('mousedown', (event) => {
+  isDragging = true;
+  offsetX = event.clientX - container.getBoundingClientRect().left;
+  offsetY = event.clientY - container.getBoundingClientRect().top;
+});
+
+document.addEventListener('mousemove', (event) => {
+  if (isDragging) {
+    container.style.left = (event.clientX - offsetX) + 'px';
+    container.style.top = (event.clientY - offsetY) + 'px';
+    container.style.position = 'absolute';
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  isDragging = false;
+});
+
+// Close the browser tab
+closeButton.addEventListener('click', () => {
+  window.close();
+});
+
+// Minimize the terminal window
+minimizeButton.addEventListener('click', () => {
+  const app = document.getElementById('app', 'container');
+  app.style.display = app.style.display === 'none' ? 'flex' : 'none';
+});
+
+// Maximize/fullscreen the terminal window
+maximizeButton.addEventListener('click', () => {
+  const container = document.querySelector('.container');
+  if (!document.fullscreenElement) {
+    if (container.requestFullscreen) {
+      container.requestFullscreen();
+    } else if (container.mozRequestFullScreen) { // Firefox
+      container.mozRequestFullScreen();
+    } else if (container.webkitRequestFullscreen) { // Chrome, Safari and Opera
+      container.webkitRequestFullscreen();
+    } else if (container.msRequestFullscreen) { // IE/Edge
+      container.msRequestFullscreen();
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) { // Firefox
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) { // Chrome, Safari and Opera
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) { // IE/Edge
+      document.msExitFullscreen();
+    }
+  }
+});
     
     
 app.addEventListener("keypress", async function(event){
@@ -82,11 +146,9 @@ async function getInputValue(){
     createCode("clear", "Clean the terminal.");
   }
   else if(value === "jamal" || value === "Jamal"){
-    // display style/img/jamal.jpg image
     show_image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVknAdxevHnpRSzjhLM0APQspYIkCS-61ZQDu5KiEXO26YMNKY0ZZNSNhw2xrAnuAErk&usqp=CAU', 
                 200, 
                 200);
-    //show_image('https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/27ab1e89321f3849a5a1cbac642f791a~c5_720x720.jpeg?x-expires=1670324400&x-signature=XXTto08wEfZGUet7T5mbnf1YkBc%3D');
   }
   else if(value === "projects" || value === "Projects"){
     trueValue(value);
