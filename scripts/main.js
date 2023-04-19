@@ -91,7 +91,7 @@ async function getInputValue(){
   else if(value === "projects" || value === "Projects"){
     trueValue(value);
     createText("Here are my projects:");
-    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience.");
+    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>.");
     createText("null - The library that <span class='blue'>iota</span> uses to remain <span class='green'>UNDETECTED</span>!")
     createText("I will add more projects soon!")
   }
