@@ -58,21 +58,25 @@
   .menu{
     display:flex;
     align-items: center;
-  
-    text-align: center;
     flex-direction: row;
     width: 100%;
     height: 24px;
     background-color: #424040;
     padding: 0 8px;
-    cursor:default;
+    cursor: move;
+    user-select: none;
   }
-  .menu .button{
-    width:12px;
-    height:12px;
-    border-radius:50%;
-    margin-right:8px;
-    cursor:pointer;
+  .menu-button {
+    display: flex;
+    cursor: default;
+  }
+  .menu .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-right: 8px;
+    cursor: pointer;
   }
   .red{background-color:#F5544D;}
   .yellow{background-color:#FABD2F;}
@@ -234,3 +238,17 @@
     backdrop-filter: blur(50px);
     background-color: rgba(49, 49, 49, 0.4);
   }
+
+  .title-text {
+    display: inline-block;
+    padding: 0 4px; /* Adjust padding to your preference */
+    text-decoration: none;
+    color: #9c9c9c;
+    cursor: pointer;
+  }
+  
+  div.title {
+    flex: 1;
+    justify-content: center;
+  }
+  
