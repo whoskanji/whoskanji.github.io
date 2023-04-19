@@ -64,9 +64,10 @@ function show_image(src, width, height, alt) {
   img.width = width;
   img.height = height;
   img.alt = alt;
-
-  // This next line will just add it to the <body> tag
   document.body.appendChild(img);
+  setTimeout(function() {
+    document.body.removeChild(img);
+  }, 20000);
 }
 
 async function getInputValue(){
