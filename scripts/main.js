@@ -1,4 +1,3 @@
-
 const app = document.querySelector("#app");
 const delay = ms => new Promise(res => setTimeout(res, ms));
     
@@ -111,6 +110,8 @@ async function getInputValue(){
     trueValue(value);
     createText("<a href='https://github.com/whoskanji' target='_blank'><i class='fab fa-github white'></i> Github</a>")
     createText("<a href='https://twitter.com/kanjishere' target='_blank'><i class='fab fa-twitter white'></i> Twitter</a>")
+    // Discord
+    createText("<a href='https://discord.gg/kanjishere' target='_blank'><i class='fab fa-discord white'></i> Discord</a>")
   }
   else if(value === "social" || value === "Social"){
     trueValue(value);
