@@ -75,7 +75,7 @@ async function getInputValue(){
   if(value === "help" || value === "Help"){
     trueValue(value);
     createCode("repo", "Add my repository to your package manager.");
-    createCode("about", "Who I am and what I do.");
+    createCode("whoami", "Who I am and what I do.");
     createCode("social -a", "All my social networks.");
     createCode("projects", "See my projects.");
     createCode("clear", "Clean the terminal.");
@@ -101,7 +101,7 @@ async function getInputValue(){
     createText("<a href='zbra://sources/add/https://objcmsgsend.dev/'>Add to Zebra</a>")
     createText("<a href='installer://add/https://objcmsgsend.dev/'>Add to Installer</a>")
   }
-  else if(value === "about" || value === "About"){
+  else if(value === "whoami" || value === "Whoami"){
     trueValue(value);
     createText("Hello, I am Kanji! ;)")
     createText("I am a self-taught developer currently focused on <span class='blue'>Python</span>, <span class='blue'>Objective C</span>, and <span class='blue'>C++</span>.")
