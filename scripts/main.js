@@ -145,6 +145,98 @@ function show_image(src, width, height, alt) {
   }, 20000);
 }
 
+let animationFrame = null;
+let animationActive = false;
+let xPos = null;
+let yPos = null;
+let xSpeed = 2;
+let ySpeed = 2;
+
+function startDvdAnimation() {
+  const container = document.querySelector(".container");
+
+  // Set the initial position to the center of the screen if it hasn't been set yet
+  if (xPos === null || yPos === null) {
+    xPos = (window.innerWidth - container.offsetWidth) / 2;
+    yPos = (window.innerHeight - container.offsetHeight) / 2;
+    container.style.position = "absolute";
+    container.style.transform = `translate(${xPos}px, ${yPos}px)`;
+  }
+
+  // Toggle the animation state and create a message
+  animationActive = !animationActive;
+  if (animationActive) {
+    createText("DVD mode activated! Run the command again to stop it.");
+
+    // Start the animation loop
+    function update() {
+      const containerRect = container.getBoundingClientRect();
+
+      // Check for container's boundaries
+      if (containerRect.right >= window.innerWidth || containerRect.left <= 0) {
+        xSpeed = -xSpeed;
+      }
+      if (containerRect.bottom >= window.innerHeight || containerRect.top <= 0) {
+        ySpeed = -ySpeed;
+      }
+
+      xPos += xSpeed;
+      yPos += ySpeed;
+
+      container.style.transform = `translate(${xPos}px, ${yPos}px)`;
+      animationFrame = requestAnimationFrame(update);
+    }
+    update();
+  } else {
+    createText("DVD mode deactivated!");
+
+    // Stop the animation and move the container back to the center of the viewport
+    cancelAnimationFrame(animationFrame);
+    xSpeed = Math.abs(xSpeed); // Reset xSpeed to its original value
+    ySpeed = Math.abs(ySpeed); // Reset ySpeed to its original value
+    moveToCenter(function() {
+      // Reset xPos and yPos after the container has moved back to the center of the viewport
+      xPos = (window.innerWidth - container.offsetWidth) / 2;
+      yPos = (window.innerHeight - container.offsetHeight) / 2;
+    });
+
+    // reload the website
+    setTimeout(function() {
+      location.reload();
+    }, 2000);
+  }
+}
+
+// Move the container back to the center of the viewport when the animation is stopped
+function moveToCenter(callback) {
+  const container = document.querySelector(".container");
+  const containerRect = container.getBoundingClientRect();
+  const currentXPos = containerRect.left + window.pageXOffset;
+  const currentYPos = containerRect.top + window.pageYOffset;
+  const targetXPos = (window.innerWidth - container.offsetWidth) / 2;
+  const targetYPos = (window.innerHeight - container.offsetHeight) / 2;
+  const computedTransform = window.getComputedStyle(container).getPropertyValue('transform');
+  const transformMatrix = new DOMMatrix(computedTransform);
+  const currentTranslateX = transformMatrix.m41;
+  const currentTranslateY = transformMatrix.m42;
+  const xDiff = targetXPos - currentXPos + currentTranslateX;
+  const yDiff = targetYPos - currentYPos + currentTranslateY;
+
+  container.style.transition = "transform 2s ease-in-out";
+  container.style.transform = `translate(${xDiff}px, ${yDiff}px)`;
+
+  // Reset the xPos and yPos variables to the center of the viewport after the transition is complete
+  container.addEventListener("transitionend", function() {
+    container.style.transition = "none";
+    container.style.transform = "translate(0, 0)";
+    xPos = targetXPos;
+    yPos = targetYPos;
+    if (typeof callback === "function") {
+      callback();
+    }
+  }, { once: true });
+}
+
 async function getInputValue(){
   
   const value = document.querySelector("input").value;
@@ -155,6 +247,10 @@ async function getInputValue(){
     createCode("social -a", "All my social networks.");
     createCode("projects", "See my projects.");
     createCode("clear", "Clean the terminal.");
+  }
+  else if(value === "dvd" || value === "Dvd"){
+    trueValue(value);
+    await startDvdAnimation();
   }
   else if(value === "jamal" || value === "Jamal"){
     show_image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVknAdxevHnpRSzjhLM0APQspYIkCS-61ZQDu5KiEXO26YMNKY0ZZNSNhw2xrAnuAErk&usqp=CAU', 
