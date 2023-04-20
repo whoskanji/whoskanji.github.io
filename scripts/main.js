@@ -35,8 +35,19 @@ closeButton.addEventListener('click', () => {
 
 // Minimize the terminal window
 minimizeButton.addEventListener('click', () => {
-  const app = document.getElementById('app', 'container');
-  app.style.display = app.style.display === 'none' ? 'flex' : 'none';
+  const app = document.getElementById('app');
+  const container = document.querySelector('.container');
+  const titleText = document.querySelector('.title-text');
+
+  if (container.classList.contains('minimized')) {
+    container.classList.remove('minimized');
+    app.style.display = 'flex';
+    titleText.style.display = 'block';
+  } else {
+    container.classList.add('minimized');
+    app.style.display = 'none';
+    titleText.style.display = 'none';
+  }
 });
 
 // Maximize/fullscreen the terminal window
