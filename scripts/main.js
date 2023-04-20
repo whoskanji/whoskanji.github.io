@@ -155,6 +155,11 @@ let ySpeed = 2;
 function startDvdAnimation() {
   const container = document.querySelector(".container");
 
+  if (!isDesktop()) {
+    createText("DVD mode is only available on desktop environments.");
+    return;
+  }
+
   // Set the initial position to the center of the screen if it hasn't been set yet
   if (xPos === null || yPos === null) {
     xPos = (window.innerWidth - container.offsetWidth) / 2;
@@ -205,6 +210,11 @@ function startDvdAnimation() {
       location.reload();
     }, 2000);
   }
+}
+
+function isDesktop() {
+  const userAgent = navigator.userAgent.toLowerCase();
+  return userAgent.includes("windows") || userAgent.includes("macintosh") || userAgent.includes("linux");
 }
 
 // Move the container back to the center of the viewport when the animation is stopped
