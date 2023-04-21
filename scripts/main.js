@@ -89,7 +89,7 @@ app.addEventListener("keypress", async function(event){
 });
 
 app.addEventListener("click", function(event){
-  const input = document.querySelector("input");
+  const input = document.querySelector("commandInput");
   input.focus();
 })
 
@@ -249,7 +249,7 @@ function moveToCenter(callback) {
 
 async function getInputValue(){
   
-  const value = document.querySelector("input").value;
+  const value = document.querySelector("commandInput").value;
   if(value === "help" || value === "Help"){
     trueValue(value);
     createCode("repo", "Add my repository to your package manager.");
