@@ -272,6 +272,7 @@ async function getInputValue(){
     createText("Here are my projects:");
     createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>. Go buy Wicked instead!");
     createText("null - The library that <span class='blue'>iota</span> uses to remain <span class='green'>UNDETECTED</span>!")
+    createText("Jinku - A local password manager for Windows/MacOS written in Python. Use "social -a" to join the Discord for the download.")
     createText("I will add more projects soon!")
   }
   else if(value === "repo" || value === "Repo"){
