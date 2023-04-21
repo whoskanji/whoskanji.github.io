@@ -121,7 +121,7 @@ function new_line(){
   div.setAttribute("class", "type")
   const i = document.createElement("i");
   i.setAttribute("class", "fas fa-angle-right icone")
-  const commandInput = document.createElement("input");
+  const input = document.createElement("input");
   div.appendChild(i);
   div.appendChild(input);
   app.appendChild(div);
