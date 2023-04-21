@@ -89,7 +89,7 @@ app.addEventListener("keypress", async function(event){
 });
 
 app.addEventListener("click", function(event){
-  const input = document.querySelector("input");
+  const input = document.getElementById("commandInput");
   input.focus();
 })
 
@@ -122,6 +122,7 @@ function new_line(){
   const i = document.createElement("i");
   i.setAttribute("class", "fas fa-angle-right icone")
   const input = document.createElement("input");
+  input.id = "commandInput";
   div.appendChild(i);
   div.appendChild(input);
   app.appendChild(div);
@@ -249,7 +250,7 @@ function moveToCenter(callback) {
 
 async function getInputValue(){
   
-  const value = document.querySelector("input").value;
+  const value = document.getElementById("commandInput").value;
   if(value === "help" || value === "Help"){
     trueValue(value);
     createCode("repo", "Add my repository to your package manager.");
