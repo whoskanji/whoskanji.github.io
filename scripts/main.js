@@ -89,7 +89,7 @@ app.addEventListener("keypress", async function(event){
 });
 
 app.addEventListener("click", function(event){
-  const input = document.querySelector("input");
+  const commandInput = document.querySelector("input");
   input.focus();
 })
 
@@ -121,7 +121,7 @@ function new_line(){
   div.setAttribute("class", "type")
   const i = document.createElement("i");
   i.setAttribute("class", "fas fa-angle-right icone")
-  const input = document.createElement("input");
+  const commandInput = document.createElement("input");
   div.appendChild(i);
   div.appendChild(input);
   app.appendChild(div);
