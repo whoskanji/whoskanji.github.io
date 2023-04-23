@@ -270,11 +270,8 @@ async function getInputValue(){
   }
   else if(value === "projects" || value === "Projects"){
     trueValue(value);
-    createText("Here are my projects:");
-    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>. Go buy Wicked instead!");
-    createText("null - The library that <span class='blue'>iota</span> uses to remain <span class='green'>UNDETECTED</span>!")
-    createText("Jinku - A local password manager for Windows/MacOS written in Python. Use 'social -a' to join the Discord for the download.")
-    createText("I will add more projects soon!")
+    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>. Go buy Wicked instead! <span class='blue'>(run 'iota -help' to find out more)</span>.");
+    createText("Jinku - A local password manager for Windows/MacOS written in Python. <span class='blue'>Use 'social -a' to join the Discord for the download</span>.");
   }
   else if(value === "repo" || value === "Repo"){
     trueValue(value);
@@ -297,12 +294,21 @@ async function getInputValue(){
   }
   else if(value === "social" || value === "Social"){
     trueValue(value);
-    createText("Didn't you mean: social -a?")
+    createText("Did you mean: <span class='blue'>social -a</span>?")
   }
-  
   else if(value === "clear" || value === "Clear"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
+  }
+  else if(value === "iota" || value === "Iota"){
+    trueValue(value);
+    createText("Did you mean: <span class='blue'>iota -help</span>?")
+  }
+  else if(value === "iota -help" || value === "Iota -help"){
+    trueValue(value);
+    createText("<span class='blue'>iota</span> is a Snapchat tweak that was built off of the code of Shadow X. It is currently EOL and will not be updated (<span class='blue'>publicly</span>).")
+    createText("<span class='blue'>iota</span> <span class='red'>DOES NOT</span> support iOS 15+. It is only compatible with iOS 13 and iOS 14.")
+    createText("You can find the full documentation in my Discord server. <span class='blue'>Use 'social -a' to join</span>.")
   }
   else{
     falseValue(value);
