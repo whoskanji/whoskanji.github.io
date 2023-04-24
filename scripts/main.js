@@ -270,8 +270,9 @@ async function getInputValue(){
   }
   else if(value === "projects" || value === "Projects"){
     trueValue(value);
-    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>. Go buy Wicked instead! <span class='blue'>(run 'iota -help' to find out more)</span>.");
-    createText("Jinku - A local password manager for Windows/MacOS written in Python. <span class='blue'>Use 'social -a' to join the Discord for the download</span>.");
+    createText("iota - A Snapchat tweak that brings several features to the user that just boost the experience. <span class='red'>iota is EOL and will not be updated</span>. Go buy Wicked instead! <span class='blue'>(run 'iota -help' to find out more).</span>");
+    createText("Jinku - A local password manager for Windows/MacOS written in Python. <span class='blue'>Use 'social -a' to join the Discord for the download.</span>");
+    createText("Reverie - Refreshing and lightweight GTA V mod menu that specializes in just having fun. <span class='blue'>Use 'social -a' to join the Discord for the download.</span>");
   }
   else if(value === "repo" || value === "Repo"){
     trueValue(value);
