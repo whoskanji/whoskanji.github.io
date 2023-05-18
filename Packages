@@ -1,35 +1,33 @@
-Package: com.kanji.null
+Package: dev.objcmsgsend.iota
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: objc_msgSend
+Installed-Size: 1128
+Depends: mobilesubstrate, dev.objcmsgsend.null
+Replaces: dev.kanji.iota
+Filename: ./debs/dev.objcmsgsend.iota_2.3_iphoneos-arm.deb
+Size: 439142
+MD5sum: 93043d9327ff2ef4b9d7acf9af5355bf
+SHA1: 623ad0402a94e44e0b2fef69483081f43ed13871
+SHA256: 78615d45a9b3a5dc6c599b8488afc0ffb5adea7844f7480ca5cbb336d4b8b961
+Section: Tweaks
+Description: A great Snapchat tweak 🥀.
+Author: objc_msgSend
+Name: iota
+
+Package: dev.objcmsgsend.null
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Kanji
-Installed-Size: 164
-Depends: mobilesubstrate (>= 0.9.5.000)
-Conflicts: com.no5up-kanji.librelic
-Replaces: com.no5up-kanji.librelic
-Filename: ./debs/com.kanji.null_1.1_iphoneos-arm.deb
-Size: 6730
-MD5sum: 3bd4e3305814f4b367e56db3e4b3972a
-SHA1: 6eb47c8008dd5cbb9f75017fc3f84fca776f00fa
-SHA256: 4eaaf97cf816752099de7cc6608cd9321be17902739148c6ff54102d8d81fb67
+Maintainer: objc_msgSend
+Installed-Size: 148
+Replaces: com.kanji.null
+Filename: ./debs/dev.objcmsgsend.null_1.1_iphoneos-arm.deb
+Size: 6480
+MD5sum: b0bd7a37b8e974502abffb3fe6e802ce
+SHA1: 023246f1aab754cd7061f07479696cffa262f37d
+SHA256: 6b51888f41e91c35f7732ad9c8a70e216a68e9b67fdae419bd7147629b908f5c
 Section: Development
 Description: the library that iota runs on to stay undetected.
-Author: Kanji
+Author: objc_msgSend
 Name: null
-
-Package: dev.kanji.iota
-Version: 2.2
-Architecture: iphoneos-arm
-Maintainer: Kanji
-Installed-Size: 848
-Depends: mobilesubstrate, com.kanji.null
-Replaces: com.wyattgahm.shadowx
-Filename: ./debs/dev.kanji.iota_2.2_iphoneos-arm.deb
-Size: 395726
-MD5sum: a567377efaf6bcf48007ce905be61622
-SHA1: aad8aee9f6e8492571c2d4c7ece2368685e8a290
-SHA256: abd28931afbb748e5858da5199d390732ec706be8da67ade22c8b15b7dcba7a6
-Section: Tweaks
-Description: Revived from the dead, iota is a free alternative to Wicked. It is based off the source code that Kanji posted.
-Author: Kanji
-Name: iota
 
