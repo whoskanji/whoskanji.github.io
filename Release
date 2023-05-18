@@ -1,5 +1,5 @@
-Origin: ~/kanji
-Label: ~/kanji
+Origin: objc_msgSend
+Label: objc_msgSend
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm
