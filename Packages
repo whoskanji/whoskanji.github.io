@@ -1,15 +1,15 @@
 Package: dev.objcmsgsend.iota
-Version: 2.3
+Version: 2.4
 Architecture: iphoneos-arm
 Maintainer: objc_msgSend
-Installed-Size: 1128
+Installed-Size: 2472
 Depends: mobilesubstrate, dev.objcmsgsend.null
 Replaces: dev.kanji.iota
-Filename: ./debs/dev.objcmsgsend.iota_2.3_iphoneos-arm.deb
-Size: 439142
-MD5sum: 93043d9327ff2ef4b9d7acf9af5355bf
-SHA1: 623ad0402a94e44e0b2fef69483081f43ed13871
-SHA256: 78615d45a9b3a5dc6c599b8488afc0ffb5adea7844f7480ca5cbb336d4b8b961
+Filename: ./debs/dev.objcmsgsend.iota_2.4_iphoneos-arm.deb
+Size: 554788
+MD5sum: 5cafb98f116cd319cf394860879e3d6c
+SHA1: fa942245975e45de0ac8fbdd775b4e604f9da94d
+SHA256: 7df1c343a75b5c630e42210d5db1bc75d1ee82d8ebaa5a8fef2924fdfbb36e3c
 Section: Tweaks
 Description: A great Snapchat tweak 🥀.
 Author: objc_msgSend
